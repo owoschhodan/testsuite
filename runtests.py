@@ -466,7 +466,7 @@ class TestRun:
             dest_dir = os.path.join(archive_dir,
                                     'ast%d/var/log/asterisk' % i)
             self._archive_files(ast_dir, dest_dir,
-                                'messages.txt', 'full.txt', 'mmlog',
+                                'messages.txt', 'full.txt', 'trace.txt', 'mmlog',
                                 'valgrind.xml', 'valgrind-summary.txt')
             i += 1
 
